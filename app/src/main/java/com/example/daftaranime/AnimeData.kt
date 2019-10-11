@@ -1,0 +1,49 @@
+package com.example.daftaranime
+
+object AnimeData {
+    private val animeTitle = arrayOf("Sword Art Online",
+        "One Piece",
+        "Naruto",
+        "Log Horizon",
+        "One Punch Man",
+        "Doraemon",
+        "Attack On Titan",
+        "Boku No Hero",
+        "Nanatsu No Taizai",
+        "Kuroko No Basuke")
+
+    private val animeDetail = arrayOf("Pada suatu hari ditahun 2022, Kirigaya Kazuto ini lagi lihat-lihat game Sword Art Online yang terjual habis dalam beberapa detik, dari majalah, internet dan lain-lain menceritakan tentang Sword Art Online, sebenarnya Kazuto ini beta tester alias salah satu dari seribu orang yang nyoba game ini pertama kali, jadi dia bener-bener antusias buat game ini. Disaat ramai-ramainya, Kazuto benar-benar beruntung bisa mendapatkan game SAO ini. Saat adiknya Sugu berpamitan pergi latian kendo, Kazuto langsung beraksi untuk bermain game ini, karena ini tahun 2022 jadi cara mainnya tinggal masukin gamenya, pake helm tidur-tiduran deh, otak kita main, badan kita diem aja. Setelah memasukan ID yang bernama Kirito, Kazuto memasuki dunia SAO. Kirito (sebenernya Kazuto tapi kita panggil aja Kirito) tiba-tiba bertemu dengan seseorang yang ingin diajarkan SAO ini, dengan senang hati Kirito mengiyakannya. Saat selesai, temannya ini ingin log-out, saat ingin log-out, tombol buat log-outnya nggak ada, awalnya mereka kita itu karena error dan akan diperbaiki secepat mungkin oleh SAO tapi ternyata dugaan mereka salah, lonceng berbunyi terus menerus dan mereka di teleport ke pusat gedung lantai 1. Saat semuanya dikumpulkan, mereka bertemu dengan penciptanya dan penciptanya berkata kalau semua player yang ada disana nggak bisa log-out, kalau mau log-out kita harus menyelesaikan game dengan menaklukkan 100 lantai dengan menghadapi boss disetiap lantai. Kalau player mati, didunia nyata pun mereka mati karena otak mereka rusak, setelah mendengar itu semua mereka berubah menjadi diri mereka sendiri. Diantara mereka ada yang menjadi gila, ada yang histeris dan lain-lain, tapi Kirito malah memperjuangkan hidupnya sampai meninggalkan teman barunya itu demi kembali ke dunia nyata. Bagaimana perjuangan Kirito ? Bagaimana Kirito yang keras itu berubah menjadi lunak dan menjadi sangat keras lagi ? Bagaimana dengan Asuna teman satu partynya ? Apa yang membuat Kirito menjadi solo player setelah mengikuti party ? Dan apa yang membuat Kirito benar-benar merasakan kenyataan ditengah kepalsuan dunia game ?",
+        "One piece itu sendiri bercerita tentang seorang Monkey D. Luffy, alias Luffy, seorang bajak laut yang berobsesi untuk menemukan One Piece, salah satu harta karun paling berharga yang ada di dunianya Luffy waktu itu. Setelah Luffy kecil diselamatkan oleh seorang bajak laut bernama Sanks, Luffy akhirnya bertekat untuk menjadi ‘the real’ bajak laut dengan cara berpetualang ke seluruh penjuru dunia dan menemukan One Piece. Di perjalanannya itulah Luffy menemukan berbagai petualangan seru bersama kapal Going Merry nya.",
+        "Tiga belas tahun sebelum cerita ini dimulai, seekor monster rubah ekor sembilan bernama Kyuubi menyerang Konoha, sebuah desa shinobi yang terletak di negara Api. Kekacauan terjadi di desa Konoha dan korban banyak berjatuhan....akhirnya ada seseorang yang berhasil menyegel Kyuubi itu ke tubuh Naruto, putranya sendiri,seseorang yang berhasil menyegel siluman rubah ekor itu dikenal sebagai Yondaime Hokage,Hokage ke 4 atau Namikaze Minato.",
+        "Log Horizon yang hampir sama dengan sword art online. Alur cerita tentang game dan terperangkap didalamnya tanpa disengaja. Tokoh utama dari anime ini adalah seorang enchanter Shiro. Dia adalah veteran dalam game Elder Tale dan dijuluki sebagai ahli strategi dari party legendaris Debucheary tea party. Setelah beberapa tahun Shiro absen dari dunia game Elder Tale, secara tidak sengaja dan belum diketahui penyebab jelasnya, shiro dan para pemain game Elder Tale yang lain terlempar ke dunia lain yang mereka kenal ada di dalam dunia game. Partner pertama dari Shiro adalah Naotsugu seorang guardian ras manusia yang dulu satu party dengan Shiro, lalu ditengah perjalanan mencari informasi tentang dunia mereka saat ini, mereka bertemu dengan assasinn ras manusia bernama Akatsuki. Dia adalah kenalan lama Shiro dan meminta bantuan kepada Shiro untuk merubah tampilan dari laki-laki menjadi perempuan karena kehidupan asli Akatsuki adalah perempuan.",
+        "One Punch Man menceritakan tentang seorang Superhero bernama asli Saitama yang memiliki kemampuan pukulan maut. Saking luar biasa pukulannya, ia mampu menghabisi monster-monster raksasa hanya dengan sekali pukulan saja. Sejak saat itu Saitama dikenal dengan nama One Punch Man, sesuai judul manganya. Setelah dua tahun berjalan, karya Yousuke Murata dan ONE ini sudah mencapai 64 chapter. Bahkan sejak bulan Maret 2015 ini, versi anime One Punch Man sudah mendapatkan lampu hijau. Kini pihak studio anime Madhouse (Death Note, Hunter X Hunter 2011) sedang melakukan pengerjaan versi anime-nya. Untuk lebih lanjutnya, mereka mengatakan versi anime One Punch Man akan tayang pada bulan Oktober 2015 mendatang. Versi anime ini ceritanya ditulis oleh Tomohiro Suzuki (penulis skrip Tiger&Bunny), dan diarahkan oleh Singo Natsume (pengarah Space Dandy, serta animator beberapa film layar lebar Doraemon)",
+        "Suneo menunjukkan kepada semua orang fosil cakar dinosaurus dan Nobita marah karena dia tidak lihat. Nobita mengklaim bahwa ia akan dapat menemukan dinosaurus yang hidup. Panik, Nobita meneliti pada dinosaurus dan mulai menggali di bukit. Tapi kemudian, seorang tuan tanah berteriak padanya dan membuat dia menggali lubang di tanah. Nobita menggali bola dari tanah, berbentuk seperti telur. Menggunakan membungkus waktu, ia kembali ke dalam bentuk tanah yang dulu, dan berencana untuk menetas telur.",
+        "Selama beratus-ratus tahun upaya yang mereka lakukan berhasil menghalau serangan brutal para raksasa, namun keadaan berubah seketika manakala raksasa dengan ukuran sangat besar yang dijuluki Colossus Titan (setinggi 60 meter) muncul secara tiba-tiba dan sesosok Armored Titan (raksasa ukuran sedang dengan kemampuan spesial) menyerang pintu masuk kota yang mengakibatkan para raksasa lainnya dapat leluasa masuk memburu para manusia. Sontak kekacauan terjadi, kepanikan dimana-mana, korban pun berjatuhan, dan para manusia mengevakuasi diri mereka menuju bagian tengah kota (Wall Rose). Naas bagi Eren Yeger tatkala ia tak mampu menyelamatkan ibunda tercinta terperangkap di reruntuhan rumah akibat kebrutalan para raksasa dan melahapnya.",
+        "Delapan puluh persen manusia di Bumi telah berevolusi dan memiliki berbagai kekuatan unik. Di tengah kondisi dunia yang seperti itu, hiduplah seorang bocah bernama Izuku Midoriya. Sejak kecil ia memiliki impian untuk jadi seorang pahlawan super. Pahlawan idolanya adalah seorang hero legendaris bernama All Might. Ia tak pernah menyangka bahwa dirinya akan bertemu dengan All Might Karena tak memiliki kekuatan apa-apa, Izuku merasa sedih dan iri dengan teman-temannya. Ia juga dibully dengan teman masa kecilnya yang bernama Katsuki Bakugou. Keseharian Izuku hanya diisi dengan mencatat dan mempelajari kekuatan para superhero yang ia temui.",
+        "Nanatsu no Taizai (The Seven Deadly Sins) bercerita tentang 7 Ksatria legendaris yg mempunyai kekuatan luar biasa,namun mereka difitnah oleh Holy Knight (ksatria suci kerajaan yg ditakuti dan dihormati) sebagai pembunuh.Mereka pun diusir dari kerajaan.Dan mereka dijuluki Nanatsu no Taizai (7 Dosa Besar).Semua orang mengingat mereka sebagai sosok mengerikan,buas,dan jahat.Bahkan setiap tahun ada poster buronan yg ditempel di berbagai tempat.Meliodas ketua dari Nanatsu no Taizai memerintahkan kepada seluruh anggota Nanatsu no Taizai untuk berpencar guna menghindari jati diri mereka terungkap oleh publik. Sepuluh tahun kemudian diketahui bahwa Holy Knight memberontak kepada kerajaan dan menangkap semua keluarga raja,namun putri Elizabeth berhasil lolos.Putri yg lolos tersebut mencari Nanatsu no Taizai agar mau membantu mengalahkan Holy Knight.",
+        "Tim basket Kuroko  The Teiko Middle School. Kelas yang menghasilkan tiga musim yang sempurna berturut-turut, dengan lima pemain sekali dalam generasi, yang disebut \"Generasi keajaiban\". Ada pemain lain yang semua dari mereka dihormati ... Seorang pemain legendaris 6. Up-dan-datang kekuatan pemain, Taiga Kagami, hanya kembali dari Amerika. Ketika ia datang ke Sekolah Tinggi Seirin, ia bertemu dengan anak laki-laki super biasa, Tetsuya Kuroko. Kagami yang terkejut menemukan bahwa Kuroko tidak baik di basket, pada kenyataannya, dia buruk! Dan dia begitu jelas bahwa dia tidak mungkin untuk melihat. Tapi kepolosan Kuroko yang memungkinkan dia mengoper bola di sekitar tanpa tim lain memperhatikan dia, dan dia tidak lain dari keenam anggota dari Generasi Miracle. Kuroko membuat perjanjian dengan Kagami untuk mengalahkan anggota lain dari Generasi Miracle, yang memiliki semua basket dimainkan di sekolah lain. Sebuah pertempuran cahaya (Kagami) dan bayangan (Kuroko) dimulai!")
+
+    private val potoAnime = intArrayOf(R.drawable.sao,
+        R.drawable.onepiece,
+        R.drawable.naruto,
+        R.drawable.loghorizon,
+        R.drawable.opm,
+        R.drawable.doraemon,
+        R.drawable.aot,
+        R.drawable.hero,
+        R.drawable.nanatsu,
+        R.drawable.kuroko)
+
+    val list_anime_data: ArrayList<anime>
+        get() {
+            val list = arrayListOf<anime>()
+            for (position in animeTitle.indices) {
+                val daftar_anime = anime()
+                daftar_anime.judul = animeTitle[position]
+                daftar_anime.deskripsi = animeDetail[position]
+                daftar_anime.gambar = potoAnime[position]
+                list.add(daftar_anime)
+            }
+            return list
+        }
+}
