@@ -1,6 +1,7 @@
 package com.example.daftaranime
 
 import android.content.Intent
+import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -10,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var bitmap: Bitmap
 
     private lateinit var rv_list: RecyclerView
     private var list: ArrayList<anime> = arrayListOf()
