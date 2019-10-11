@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
     private lateinit var bitmap: Bitmap
+    private lateinit var bitmap22222
 
     private lateinit var rv_list: RecyclerView
     private var list: ArrayList<anime> = arrayListOf()
